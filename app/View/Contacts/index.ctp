@@ -248,10 +248,11 @@
                                           //$this = $(this);
                                           //var customerID = [];
         //                                  var customerId = $(this).find(".customer_id").html();
-                                          var contactsID = $(this).find("td:first").html();
-                                          var customerID = $(this).find("td").eq(1).html();
+//                                          var contactsID = $(this).find("td:first").html();
+                                          var contactsID = $(this).find("td").eq(1).html();
+                                          var customerID = $(this).find("td").eq(2).html();
                                           if(customerID === customer_id) {
-        //                                      console.log(customerId);
+//                                              console.log(customerId);
         //                                      $('#'+customerId).children('td[data-target=name]').text(name);
         //                                      $('#'+customerId).children('td[data-target=dob]').text(dob);
                                               /*var name = $(this).find("td").eq(2).html();
