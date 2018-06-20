@@ -9,7 +9,7 @@
 <?php echo $this->Html->link('Add new customer', '#', array('data-role' => 'add'
 )); ?>
 <br><br>
-<table id='index_table' class="table">
+<table id='index_table' class="table table-striped table-responsive">
     <thead>
     <tr>
         <th>SL No.</th>
