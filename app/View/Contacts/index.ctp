@@ -1,6 +1,5 @@
 <?php
     #pr($contacts); die();
-
 ?>
 <script type="text/javascript" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
@@ -10,7 +9,7 @@
 <?php echo $this->Html->link('Add new customer', '#', array('data-role' => 'add'
 )); ?>
 <br><br>
-<table id='index_table'>
+<table id='index_table' class="table">
     <thead>
     <tr>
         <th>SL No.</th>
