@@ -6,6 +6,7 @@ class CustomersController extends AppController {
 
     public function index() {
         $this->set('customers',$this->Customer->find('all'));
+        //$this->layout = 'Contacts\index';
     }
 
     public function add() {

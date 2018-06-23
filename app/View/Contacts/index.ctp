@@ -3,12 +3,14 @@
 ?>
 <script type="text/javascript" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">-->
+<!--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">-->
 
 
 <h3>All Customers Information</h3>
-<?php echo $this->Html->link('Add new customer', '#', array('data-role' => 'add'
-)); ?>
-<br><br>
+<?php //echo $this->Html->link('Add new customer', '#', array('data-role' => 'add'
+//)); ?>
+<br>
 <table id='index_table' class="table table-striped table-responsive">
     <thead>
     <tr>
@@ -60,8 +62,8 @@
 
             <div class="modal-content">
               <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Customer Information</h4>
+                  <h4 class="modal-title">Customer Information</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
               <div class="modal-body">
 
@@ -118,8 +120,8 @@
 
             <div class="modal-content">
               <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Customer Information</h4>
+                  <h4 class="modal-title">Customer Information</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
               <div class="modal-body">
 
